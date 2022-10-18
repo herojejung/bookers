@@ -4,6 +4,5 @@
 
 <p>body:<%= @book.body %></p>
 
-<a href="https://63779d6a5fce419bb1ac321788172462.vfs.cloud9.us-west-2.amazonaws.com/books">
-　back
-</a>
+<%= link_to 'edit''|', edit_book_path(@book.id) %>
+<%= link_to 'back', books_path(@book.id) %>
