@@ -32,7 +32,10 @@ h1 {
   font-size: 13px;
 }
 
-
 .header h1 {
   font-family: Arial Black;
+}
+
+.flash {
+  color: #0F0;
 }

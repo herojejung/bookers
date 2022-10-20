@@ -1,8 +1,9 @@
 <h1></h1>
-<h2></h2>
+
+<div class="show-title-body">
 <p>title:<%= @book.title %></p>
-
 <p>body:<%= @book.body %></p>
+</div>
 
-<%= link_to 'edit''|', edit_book_path(@book.id) %>
+<%= link_to 'edit', edit_book_path(@book.id) %>
 <%= link_to 'back', books_path(@book.id) %>
